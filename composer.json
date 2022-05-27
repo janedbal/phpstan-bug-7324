@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Bug7324\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "phpstan/phpstan": "^1.7",
+        "phpstan/phpstan-phpunit": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    }
+}
